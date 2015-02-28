@@ -5,14 +5,15 @@
 //Footer
 
 // reset
-@import 'partials/reset';
+@import "partials/reset";
 // typography
-@import 'partials/typography';
+@import "partials/typography";
 // variables
+@import "partials/variables";
 // grid
-@import 'partials/grid';
+@import "partials/grid";
 // mixins
-@import 'partials/mixins';
+@import "partials/mixins";
 
 
 
@@ -21,19 +22,19 @@
 
 // Breakpoints
 
-@import 'breakpoints/base';
+@import "breakpoints/base";
 
 @media only screen and (min-width: 481px) {
 
-	@import 'breakpoints/481up';
+	@import "breakpoints/481up";
 }
 
 @media only screen and (min-width: 768px) {
 
-	@import 'breakpoints/768up';
+	@import "breakpoints/768up";
 }
 
 @media only screen and (min-width: 1030px) {
 
-	@import 'breakpoints/1030up';
+	@import "breakpoints/1030up";
 }
